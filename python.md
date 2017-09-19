@@ -35,3 +35,5 @@ The application is accepted if:
 #### Your answer:
 The main difference is: ID's are unique, Classes are not.
 We can use the same class on multiple elements. Each element have only one unique id. Each page can have only one element with that id.
+Classes are useful when you have more than one element that shares the same style.
+Use the ID when you have a single element on the page that will take the style.
