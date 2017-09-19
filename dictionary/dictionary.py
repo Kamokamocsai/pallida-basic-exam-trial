@@ -12,7 +12,7 @@ eng_word = input("ENG word: ")
 
 def add_word(hun_word, eng_word):
     new_word = {}
-    new_word = (hun_word, eng_word)
+    new_word = {hun_word: eng_word}
     dictionary.append(new_word)
     print(dictionary)
     
