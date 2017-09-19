@@ -10,7 +10,6 @@ hun_word = input("HUN word: ")
 eng_word = input("ENG word: ")
 
 def add_word(hun_word, eng_word):
-    new_word = {}
     new_word = {hun_word: eng_word}
     dictionary.append(new_word)
     print(dictionary)
@@ -21,12 +20,13 @@ def add_word(hun_word, eng_word):
 
 
 # def translate_to_hun(eng_word):
-#     for english_word in dictionary:
-#         if english_word == eng_word:
-#             print("megvagy")
+#     new_word = {hun_word: eng_word}
+#     for i in dictionary:
+#         if new_word in dictionary:
+#             solution = dictionary(i)
+#             print(solution)
 #         else:
-#             break
-    
+#             False
 
 
 # def translate_to_eng(hun_word):
